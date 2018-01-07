@@ -45,29 +45,7 @@
         "dev": "../../Shared/Client/Config/environments/environment.ts",
         "prod": "../../Shared/Client/Config/environments/environment.prod.ts"
       }
-    },
-    {
-      "name": "foo",
-      "root": "src",
-      "outDir": "dist",
-      "assets": [
-      ],
-      "index": "index.html",
-      "main": "main.ts",
-      "polyfills": "polyfills.ts",
-      "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
-      "styles": [
-      ],
-      "scripts": [],
-      "environmentSource": "environments/environment.ts",
-      "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
-      }
-    }    
+    }   
   ],
   "e2e": {
     "protractor": {
