@@ -1,1 +1,1 @@
-ng new featureTemplate -sg -sc -si --routing true --minimal
+ng new feature-name -sg -sc -si --routing true --minimal
