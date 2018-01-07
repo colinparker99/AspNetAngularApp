@@ -1,0 +1,122 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "mvc-app"
+  },
+  "apps": [
+    {
+      "name": "group1-feature1",
+      "root": "Group1/Feature1",
+      "appRoot": "Client/app",
+      "outDir": "dist/Group1/Feature1",
+      "assets": [],
+      "index": "./Client/index.html",
+      "main": "./Client/main.ts",
+      "polyfills": "../../Shared/Client/Config/polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "../../Shared/Client/Config/tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "feature1",
+      "styles": [],
+      "scripts": [],
+      "environmentSource": "../../Shared/Client/Config/environments/environment.ts",
+      "environments": {
+        "dev": "../../Shared/Client/Config/environments/environment.ts",
+        "prod": "../../Shared/Client/Config/environments/environment.prod.ts"
+      }
+    },
+    {
+      "name": "group1-feature2",
+      "root": "Group1/Feature2",
+      "appRoot": "Client/app",
+      "outDir": "dist/Group1/Feature2",
+      "assets": [],
+      "index": "./Client/index.html",
+      "main": "./Client/main.ts",
+      "polyfills": "./Client/polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "./Client/tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "feature2",
+      "styles": [],
+      "scripts": [],
+      "environmentSource": "../../Shared/Client/Config/environments/environment.ts",
+      "environments": {
+        "dev": "../../Shared/Client/Config/environments/environment.ts",
+        "prod": "../../Shared/Client/Config/environments/environment.prod.ts"
+      }
+    },
+    {
+      "name": "foo",
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+      ],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }    
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "src/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "class": {
+      "spec": false
+    },
+    "component": {
+      "inlineStyle": true,
+      "inlineTemplate": false,
+      "spec": false
+    },
+    "directive": {
+      "spec": false
+    },
+    "guard": {
+      "spec": false
+    },
+    "module": {
+      "spec": false
+    },
+    "pipe": {
+      "spec": false
+    },
+    "service": {
+      "spec": false
+    }
+  }
+}

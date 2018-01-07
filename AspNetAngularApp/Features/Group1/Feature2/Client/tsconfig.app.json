@@ -1,0 +1,3 @@
+{
+  "extends": "../../../Shared/Client/Config/tsconfig.app.json"
+}
