@@ -6,11 +6,12 @@ using System.Web.Mvc;
 
 namespace AspNetAngularApp.Features.Group1.Feature1.Server.Controllers
 {
-    public class Feature1Controller : Controller
+    [Route("feature2")]
+    public class Feature2Controller : Controller
     {
         public ActionResult Index()
         {
-            return View("~/Features/Group1/Feature1/Client/index.cshtml");
+            return View("~/Features/dist/Group1/Feature2/Client/index.cshtml");
         }
     }
 }

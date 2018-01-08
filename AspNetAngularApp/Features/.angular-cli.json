@@ -31,7 +31,7 @@
       "appRoot": "Client/app",
       "outDir": "dist/Group1/Feature2",
       "assets": [],
-      "index": "./Client/index.html",
+      "index": "./Client/index.cshtml",
       "main": "./Client/main.ts",
       "polyfills": "./Client/polyfills.ts",
       "test": "test.ts",

@@ -104,6 +104,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Features\Group1\Feature2\Client\app\app.component.html" />
+    <Content Include="Features\Group1\Feature2\Client\index.html" />
     <Content Include="Features\Shared\Client\Config\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -112,6 +114,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Features\Group1\Feature1\Server\Controllers\Feature1Controller.cs" />
+    <Compile Include="Features\Group1\Feature2\Server\Controllers\Feature2Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -125,6 +128,8 @@
     <Content Include="Features\.angular-cli.json" />
     <Content Include="Features\package.json" />
     <Content Include="Features\tsconfig.json" />
+    <Content Include="Features\Group1\Feature2\Client\index.cshtml" />
+    <Content Include="Features\Group1\Feature2\Client\tsconfig.app.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -145,6 +150,10 @@
     <TypeScriptCompile Include="Features\Group1\Feature1\Client\app.component.ts" />
     <TypeScriptCompile Include="Features\Group1\Feature1\Client\app.module.ts" />
     <TypeScriptCompile Include="Features\Group1\Feature1\Client\main.ts" />
+    <TypeScriptCompile Include="Features\Group1\Feature2\Client\app\app.component.ts" />
+    <TypeScriptCompile Include="Features\Group1\Feature2\Client\app\app.module.ts" />
+    <TypeScriptCompile Include="Features\Group1\Feature2\Client\main.ts" />
+    <TypeScriptCompile Include="Features\Group1\Feature2\Client\polyfills.ts" />
     <TypeScriptCompile Include="Features\Shared\Client\Config\environments\environment.prod.ts" />
     <TypeScriptCompile Include="Features\Shared\Client\Config\environments\environment.ts" />
     <TypeScriptCompile Include="Features\Shared\Client\Config\polyfills.ts" />
